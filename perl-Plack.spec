@@ -7,13 +7,13 @@
 Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
 #Summary(pl.UTF-8):
 Name:		perl-Plack
-Version:	0.9985
+Version:	0.9986
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Plack/%{pdir}-%{version}.tar.gz
-# Source0-md5:	3d340079cdec9435991fdd0e0953c99e
+# Source0-md5:	90d63ab0dc479136906db43ab9a99df1
 Patch0:		%{name}-tests.patch
 URL:		http://search.cpan.org/dist/Plack/
 BuildRequires:	perl-devel >= 1:5.8.0
