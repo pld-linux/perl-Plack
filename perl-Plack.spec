@@ -8,7 +8,7 @@ Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit
 #Summary(pl.UTF-8):
 Name:		perl-Plack
 Version:	0.9986
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -34,7 +34,7 @@ BuildRequires:	perl-libwww >= 5.814
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	'perl(Apache::Constants)' 'perl(Apache::Request)'
+%define		_noautoreq_perl	'Apache::Constants' 'Apache::Request'
 
 %description
 Plack is a set of tools for using the PSGI stack. It contains
