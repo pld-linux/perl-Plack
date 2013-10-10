@@ -24,10 +24,12 @@ BuildRequires:	perl(HTTP::Body) >= 1.06
 BuildRequires:	perl(Hash::MultiValue) >= 0.05
 BuildRequires:	perl(Test::Requires)
 BuildRequires:	perl(Test::TCP) >= 0.11
+BuildRequires:	perl-Apache-LogFormat-Compiler
 BuildRequires:	perl-Devel-StackTrace >= 1.23
 BuildRequires:	perl-File-ShareDir >= 1.00
 BuildRequires:	perl-File-ShareDir-Install
 BuildRequires:	perl-HTTP-Request-AsCGI
+BuildRequires:	perl-Stream-Buffered
 BuildRequires:	perl-Try-Tiny
 BuildRequires:	perl-URI >= 1.36
 BuildRequires:	perl-libwww >= 5.814
