@@ -5,7 +5,6 @@
 %define		pdir	Plack
 %include	/usr/lib/rpm/macros.perl
 Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
-#Summary(pl.UTF-8):
 Name:		perl-Plack
 Version:	1.0044
 Release:	1
@@ -48,10 +47,6 @@ for WSGI.
 
 See PSGI for the PSGI specification and PSGI::FAQ to know what PSGI
 and Plack are and why we need them.
-
-
-
-# %description -l pl.UTF-8 # TODO
 
 %prep
 %setup -q -n %{pdir}-%{version}
