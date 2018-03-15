@@ -6,13 +6,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
 Name:		perl-Plack
-Version:	1.0044
+Version:	1.0047
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Plack/%{pdir}-%{version}.tar.gz
-# Source0-md5:	ecca999f0034f04c8dbcf230ac8c3241
+# Source0-md5:	9d37086aec1b29bab52a9575687e3557
 URL:		http://search.cpan.org/dist/Plack/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
