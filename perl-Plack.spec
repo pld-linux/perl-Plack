@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/Plack/%{pdir}-%{version}.tar.gz
 URL:		http://search.cpan.org/dist/Plack/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-File-ShareDir-Install
 %if %{with tests}
 BuildRequires:	perl(Devel::StackTrace::AsHTML) >= 0.11
 BuildRequires:	perl(Filesys::Notify::Simple)
@@ -26,7 +27,6 @@ BuildRequires:	perl(Test::TCP) >= 0.11
 BuildRequires:	perl-Apache-LogFormat-Compiler
 BuildRequires:	perl-Devel-StackTrace >= 1.23
 BuildRequires:	perl-File-ShareDir >= 1.00
-BuildRequires:	perl-File-ShareDir-Install
 BuildRequires:	perl-HTTP-Entity-Parser
 BuildRequires:	perl-HTTP-Request-AsCGI
 BuildRequires:	perl-Stream-Buffered
