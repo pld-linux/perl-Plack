@@ -3,7 +3,6 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %define		pdir	Plack
-%include	/usr/lib/rpm/macros.perl
 Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
 Name:		perl-Plack
 Version:	1.0047
