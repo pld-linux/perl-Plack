@@ -5,13 +5,13 @@
 %define		pdir	Plack
 Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
 Name:		perl-Plack
-Version:	1.0051
+Version:	1.0054
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Plack/%{pdir}-%{version}.tar.gz
-# Source0-md5:	0b3e573458b37ad69069fc8cb307b6b8
+# Source0-md5:	2aff327a947accfde698fff73b42e1f9
 URL:		http://search.cpan.org/dist/Plack/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
