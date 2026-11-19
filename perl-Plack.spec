@@ -6,7 +6,7 @@
 Summary:	Plack - Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
 Name:		perl-Plack
 Version:	1.0057
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
